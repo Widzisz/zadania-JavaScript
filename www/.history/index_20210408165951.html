@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Odliczanie czasu</title>
+
+	<script type="text/javascript">
+		let today = new Date();
+
+		let day = today.getDate();
+		let month = today.getMonth() + 1;
+		let year = today.getFullYear();
+
+		let hours = today.getHours();
+		let minutes = today.getMinutes();
+		let seconds = today.getSeconds();
+	</script>
+
+</head>
+
+<body>
+
+	<div id="zegar"></div>
+
+	<script type="text/javascript">
+	document.getElementById("zegar").innerHTML = day + "/" + month + "/" + year + "|" + hours + ":" + minutes + ":" + seconds;
+	</script>
+
+</body>
+
+</html>

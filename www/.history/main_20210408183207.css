@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  background-color: aqua;
+}
+
+#zegar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 600;
+    font-weight: bold;
+    color: red;
+    
+}

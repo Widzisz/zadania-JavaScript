@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  background-color: aqua;
+}
+
+#zegar {
+    font-size: 600;
+    color: red;
+    
+}

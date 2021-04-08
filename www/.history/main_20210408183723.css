@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  background-color: aqua;
+  font-size: 20px;
+}
+
+#zegar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+    animation: name 5s infinite;
+}
+
+@keyframes name {
+    0% { color: rgb(143, 76, 230); }
+    50% { color: rgb(75, 180, 81); }
+    100% { color: red; }
+  }
